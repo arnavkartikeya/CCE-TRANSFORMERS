@@ -1,13 +1,10 @@
-# CCE_NLI
+# Compositional Explanations of Neurons
 
-pip install pyparsing==2.4.2
+NeurIPS 2020
 
-to retrain:
+https://arxiv.org/abs/2006.14032
 
-pip install -U spacy
-python -m spacy download en_core_web_sm
-python3 code/snli_train.py
-
-to run explanations:
-
-python3 code/analyze.py
+This codebase is split into two repositories: one for the vision experiments
+(which extends the excellent [PyTorch implementation of
+NetDissect](https://github.com/CSAILVision/NetDissect-Lite/tree/master/visualize)),
+and one for the NLI experiments.
